@@ -1,0 +1,197 @@
+.TrainerSection{
+    padding-top: 8rem;
+}
+
+.heading h1{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #e1193e;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.heading h2{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase
+}
+.heading h2>span{
+    color: #e1193e;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.overlapsImages{
+    position: relative;
+    z-index: -22;
+}
+
+.overlapsImages>img{
+    height: 400px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.overlapSection>div{
+    position: relative;
+    z-index: 11;
+    margin-top: -27.3rem;
+    
+}
+.overlapSection{
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.trainerImage{
+    transition-delay: .2s;
+    transition: all 0.4s ease;
+}
+.trainerImage{
+    width: 100%;
+}
+.MoboverlapSection{
+    display: none;
+}
+.imageOpen{
+    transform:translateX(-40px);
+}
+.textBox h3{
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 500;
+    width: 120px;
+    border: 1px dotted #fff;
+    text-align: right;
+    padding: 0px 5px;
+    height: 60xp;
+    transform: skew(10deg);
+    margin-top: 10px;
+    margin-left: 2.6rem;
+}
+.textConatiner{
+    position: relative;
+    opacity: 1;
+}
+.textBox {
+    height: 55px;
+    transform: skew(-10deg);
+    background: #1425af;
+    width: 170px;
+    padding: 20px 5px;
+}
+.nameClose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1425af;
+    transition: all 0.4s ease;
+    transform: translateX(0px);
+    z-index: -1;
+    position: relative;
+    top: -260px;
+    border: 1px solid;
+    right: -60px;
+    width: 140px;
+    padding-top: 10px;
+    text-align: right;
+    height: 60px;
+    -webkit-transform:
+        skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    opacity: 0;
+}
+.nameOpen {
+    display: flex;
+    align-items: center;
+    background-color: #1425af;
+    transition: all 0.4s ease;
+    transform: translateX(0px);
+    opacity: 1;
+    -webkit-transform:
+        skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    z-index: -1;
+    position: relative;
+    top: -260px;
+    right: -190px;
+    width: 200px;
+    padding-top: 10px;
+    text-align: right;
+    height: 60px;
+}
+
+@media only screen and (max-width: 414px) {
+    .heading h2{
+        font-size: 28px;
+    }
+    .overlapSection{
+        display: none;
+    }
+    .overlapsImages{
+        display: none;
+    }
+    .MoboverlapSection>div img{
+        height: 550px;
+    }
+    
+    .mobTextBox h3{
+    font-size: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+    padding: 5px 10px;
+    width: 200px;
+
+    }
+    .mobTextBox {
+        background: #1425af;
+        width: 265px;
+        border: 1px dashed rgba(255, 255, 255, 0.6);
+    }
+    .MoboverlapSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .MoboverlapSection>div>div{
+        padding: 5px;
+        width: 288px;
+        position: absolute;
+        margin-top: -1rem;
+        margin-left: 5rem;
+        z-index: 1;
+        background: #1425af;
+        
+    }
+    .MobTransformdiv{
+            height: 72px;
+            width: 30px;
+            -ms-transform: skew(-15deg);
+            -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+            background: #1425af;
+           margin-left: 17rem;
+            margin-top: -4.13rem;
+            position: absolute;
+           
+    }
+    .MoboverlapSection>div{
+        padding: 10px;
+        margin-top: 50px;
+    }
+    
+}

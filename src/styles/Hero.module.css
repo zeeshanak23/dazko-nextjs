@@ -1,0 +1,389 @@
+.features{
+  width: 100%;
+  height: 100vh;
+}
+.anchorTags>a{
+  cursor: pointer;
+}
+.imagesShadow{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: #030513;
+  opacity: .3;
+}
+.dazkoImages>img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+.dazkoImages2>img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.dazkoHeading>button:hover{
+  border: 1px solid #1425af !important;
+  background: #1425af !important;
+  color: #fff !important;
+}
+.dazkoHeading{
+  position: relative;
+  color: white;
+  top: -28rem;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  z-index: 1000;
+  padding: 0;
+  justify-content: space-between;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.carouselContainer{
+  position: relative;
+  
+}
+
+.dazko h1{
+  font-size: 60px;
+  width: 600px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #fff;
+  line-height: 1.1;
+}
+.tnsNav{
+  text-align: center;
+  margin: 0 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 30px;
+  z-index: 99;
+}
+.transBtn{
+  width: 20px;
+    height: 2px;
+    padding: 0;
+    margin: 15px 0 15px auto;
+    background: rgba(255, 255, 255, 0.8);
+    border: 0;
+    display: block;
+}
+.dazkoHeading>button{
+  background: #e1193e !important;
+  border: 1px solid #e1193e !important;
+  color: #fff !important;
+  padding: 18px 30px;
+  cursor: pointer;
+  border-radius: 0;
+  -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+}
+.dazkoHeading p{
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.rightArrow::before{
+  content: "\f119"
+}
+.headerComponents{
+  background: transparent !important;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phoneNumber>div{
+  display: flex;
+  text-align: center;
+}
+.phoneNumber{
+  margin-left: 10px;
+  text-align: center;
+}
+.phoneNumber h1{
+  color: #fff;
+  margin-top: 3px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.phoneNumber>div{
+  font-weight: 600;
+  align-items: baseline;
+  font-size: 14px;
+  color: #e1193e;
+}
+.headerImage>div{
+  padding: 3px 6px;
+  align-items: center;
+  margin: 2px;
+  -ms-transform: skew(-25deg);
+  -webkit-transform: skew(-25deg);
+  transform: skew(-25deg);
+  background: #e1193e;
+  place-items: center;
+}
+.anchortagImages{
+  margin-top: -1rem;
+  align-items: center;
+  color: white;
+  -ms-transform: skew(25deg);
+  -webkit-transform: skew(25deg);
+  transform: skew(25deg);
+}
+.headerImage{
+  display: flex;
+}
+
+.navigation{
+  background: transparent !important;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.logo{
+  display: block;
+  text-transform: uppercase;
+}
+.logo>span{
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 1.9rem;
+}
+.logo>div{
+  display: block;
+  font-size: 11px;
+  color: #e1193e;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.anchorElements>div{
+  align-items: center;
+  display: flex;
+  position: relative;
+  z-index: 0;
+}
+.anchorElements>div>div>button{
+  border: none;
+  margin-right: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 12px;
+  background: #e1193e;
+  padding: 14px 15px;
+  color: #fff;
+  position: relative;
+  z-index: 0;
+  height: 52px;
+}
+.anchorBtn{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -12;
+  content: '';
+  width: 40px;
+  -ms-transform: skew(-25deg);
+  -webkit-transform: skew(-25deg);
+  transform: skew(-25deg);
+  background: #e1193e;
+}
+.anchorElements>div>div>button::after{
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 100%;
+    height: 2px
+}
+.anchorElements>div>a{
+  font-size: 11px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding: 0 20px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.borderLine{
+  height: 2px ;
+  background: linear-gradient(to right, rgba(210, 227, 238, 0) 0%, #e1193e 100%);
+
+}
+.ant-carousel .slick-dots li {
+  padding: 5px !important;
+}
+.mobileLogo{
+  display: none;
+}
+@media only screen and (max-width: 414px) {
+  .navigation{
+    display: none;
+  }
+  .mobileLogo{
+    display: flex;
+    z-index: 1;
+    height: 80px;
+    background-color: black;
+    position: relative;
+    font-size: 0.8rem;
+    margin-top: 2px;
+    padding: 20px;
+    align-items: center;
+  }
+  .headerComponents{
+    display: none;
+  }
+  .dazkoImages>img{
+    object-fit: cover;
+    object-position: center;
+    }
+  
+  .hamburger{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .hamburger > div{
+    height: 2px;
+    width: 22px;
+    border: 1px solid white;
+    background-color: #fff;
+    margin-bottom: 3px;
+  }
+  .headerSecond span{
+    border: none;
+    color: rgba(255, 255, 255, 0.9) !important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 19px;
+    letter-spacing: .1em;
+    margin-left: 30px;
+  }
+  /* .slice{
+    height: 2px;
+    margin: 10px;
+    background-color: #fff;
+  } */
+  .headerSecond{
+    margin-left: 10rem;
+    display: flex;
+
+
+  }
+  .active{
+    display: flex;
+    flex-direction: column;
+  }
+  .dazkoHeading h1{
+    font-size: 35px;
+    width: 400px;
+  }
+  .dazkoHeading p{
+    font-size: 18px;
+    width: 400px;
+  }
+  .dazkoHeading{
+    margin-top: -9rem;
+    left: 10px;
+  }
+  .dazko>img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+  }
+  .borderNavigation{
+    display: block;
+  }
+
+  .anchorTags{
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-top: 28rem;
+    padding: 25px 10px;
+    margin-left: -20px;
+    margin-right: 25rem;
+  }
+  .anchorTags>a{
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1rem;
+    padding-top: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .anchorTags>button{
+    background-color: #e1193e;
+    color: white;
+    border: none;
+    width: 200px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+  }
+  .close{
+    transform: translateY(-350px);
+  }
+  .dazko>div:first-child> img{
+    object-fit: cover;
+  }
+  .borderLine{
+    margin-bottom: 5px;
+  }
+}
