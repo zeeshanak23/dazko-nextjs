@@ -1,4 +1,3 @@
-import React from "react"
 import Information from "./Information"
 import Join from "./Join"
 import Classes from "./Classes"

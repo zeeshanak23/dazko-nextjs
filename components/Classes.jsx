@@ -75,11 +75,11 @@ const activeFunction = (index) => {
                 {classItem.map((list,i)=>{
                     return (
                         <div className={styles.classImage}>
-                        <div  onMouseOver={()=>
+                        <div key={i} onMouseOver={()=>
                         activeFunction(i)}
                         onMouseLeave={()=>{
                             inActiveFunction(i)
-                        }} key={i}>
+                        }}>
                             <img src={list.image} alt="" />
                             <div className={`${styles.price} ${list.active ? `${styles.priceOpen}`:`${styles.priceClose}`}`}>
                                 {list.price}

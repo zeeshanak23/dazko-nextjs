@@ -65,11 +65,11 @@ return(
             <div className={styles.boxTestimonalSection}>
                 {list.map((list,i)=>{
                     return (
-                        <div className={styles.containerSection}>
+                        <div  key={i}className={styles.containerSection}>
                             <div className={styles.quotes}>
                                 <img src="../dazko/quotes.png" alt="" />
                             </div>
-                        <div className={styles.box} key={i}>
+                         <div className={styles.box}>
                             <div className={styles.paragraph}>
                                 <p>{list.line}</p>
                             </div>
@@ -90,11 +90,11 @@ return(
             <div className={styles.boxTestimonalSection2}>
                 {itmes.map((list,i)=>{
                     return (
-                        <div className={styles.containerSection}>
+                        <div  key={i}className={styles.containerSection}>
                         <div className={styles.quotes}>
                                 <img src="../dazko/quotes.png" alt="" />
                             </div>
-                        <div className={styles.box} key={i}>
+                         <div className={styles.box}>
                             <div className={styles.paragraph}>
                                 <p>{list.line}</p>
                             </div>
@@ -119,11 +119,11 @@ return(
             <div>
             {mobItmes.map((list,i)=>{
                     return (
-                        <div className={styles.containerSection}>
+                        <div key={i} className={styles.containerSection}>
                         <div className={styles.quotes}>
                                 <img src="../dazko/quotes.png" alt="" />
                             </div>
-                        <div className={styles.box} key={i}>
+                        <div className={styles.box}>
                             <div className={styles.paragraph}>
                                 <p>{list.line}</p>
                             </div>
@@ -145,11 +145,11 @@ return(
             <div>
             {mobItmes.map((list,i)=>{
                     return (
-                        <div className={styles.containerSection}>
+                        <div key={i} className={styles.containerSection}>
                         <div className={styles.quotes}>
                                 <img src="../dazko/quotes.png" alt="" />
                             </div>
-                        <div className={styles.box} key={i}>
+                        <div className={styles.box}>
                             <div className={styles.paragraph}>
                                 <p>{list.line}</p>
                             </div>
@@ -171,11 +171,11 @@ return(
             <div>
             {mobItmes.map((list,i)=>{
                     return (
-                        <div className={styles.containerSection}>
+                        <div key={i} className={styles.containerSection}>
                         <div className={styles.quotes}>
                                 <img src="../dazko/quotes.png" alt="" />
                             </div>
-                        <div className={styles.box} key={i}>
+                        <div className={styles.box}>
                             <div className={styles.paragraph}>
                                 <p>{list.line}</p>
                             </div>
@@ -197,11 +197,11 @@ return(
             <div>
             {mobItmes.map((list,i)=>{
                     return (
-                        <div className={styles.containerSection}>
+                        <div key={i} className={styles.containerSection}>
                         <div className={styles.quotes}>
                                 <img src="../dazko/quotes.png" alt="" />
                             </div>
-                        <div className={styles.box} key={i}>
+                        <div className={styles.box}>
                             <div className={styles.paragraph}>
                                 <p>{list.line}</p>
                             </div>
@@ -223,11 +223,11 @@ return(
             <div>
             {mobItmes.map((list,i)=>{
                     return (
-                        <div className={styles.containerSection}>
+                        <div key={i} className={styles.containerSection}>
                         <div className={styles.quotes}>
                                 <img src="../dazko/quotes.png" alt="" />
                             </div>
-                        <div className={styles.box} key={i}>
+                        <div className={styles.box}>
                             <div className={styles.paragraph}>
                                 <p>{list.line}</p>
                             </div>

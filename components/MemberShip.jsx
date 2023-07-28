@@ -5,7 +5,6 @@ export default function MemberShip() {
     return (
         <section className={styles.MemberShipSection}>
             <div className={styles.memberShip}>
-                <div></div>
             </div>
             <div className={styles.overlaps}>
                 <h1>WATCH OUR STORIES</h1>
@@ -20,7 +19,7 @@ export default function MemberShip() {
                     <div className={styles.secondImagesMember}>
                         <img className={styles.MemberShipBg2} src="../dazko/bg1.webp" alt="" />
                         <img className={styles.videoIconsSecond} src="../dazko/videoIcon.jpg" alt="video" />
-                        <h1>I'm Sheryl Johnson Proved that 50 Really Is the New 30</h1>
+                        <h1>I am Sheryl Johnson Proved that 50 Really Is the New 30</h1>
                     </div>
                 </div>
             </div>

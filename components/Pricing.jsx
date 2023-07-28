@@ -71,7 +71,7 @@ const Pricing = () => {
                 {list.map((list,i)=>{
                     return (
                         
-                        <div className={styles.boxContent} key={i}>
+                        <div key={i} className={styles.boxContent} >
                             <h1>{list.title}</h1>
                             <h2 className={styles.number}><div className={styles.dolarSign}>$</div>{list.price}</h2>
                             <div className={styles.listFeatures}>
@@ -95,8 +95,8 @@ const Pricing = () => {
             <div className={styles.priceContent}>
                 {PriceItem.map((image,i)=>{
                     return (
-                        <div className={styles.pricingBoxItem}>
-                        <div key={i} className={styles.priceItem}>
+                        <div key={i} className={styles.pricingBoxItem}>
+                        <div className={styles.priceItem}>
                             <div className={styles.priceItemImage}>
                                 <img src={image.image} alt="images" />
                             </div>
