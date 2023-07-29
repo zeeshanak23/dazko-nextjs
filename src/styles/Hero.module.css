@@ -286,7 +286,7 @@
   .hamburger{
     display: block;
     position: absolute;
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .hamburger > div{
     height: 2px;
@@ -347,7 +347,7 @@
     background-color: black;
     color: white;
     position: absolute;
-    margin-top: 28rem;
+    margin-top: 25rem;
     padding: 25px 10px;
     margin-left: -20px;
     margin-right: 25rem;

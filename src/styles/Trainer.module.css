@@ -14,14 +14,14 @@
     font-size: 34px;
     font-weight: 800;
     font-family: "Open Sans", Arial, sans-serif;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 .heading h2>span{
     color: #e1193e;
 }
 .heading{
     text-align: center;
-    margin-bottom: 70px;
 }
 .overlapsImages{
     position: relative;
@@ -41,7 +41,7 @@
 .overlapSection>div{
     position: relative;
     z-index: 11;
-    margin-top: -27.3rem;
+    margin-top: -27.5rem;
     
 }
 .overlapSection{
@@ -116,6 +116,7 @@
     align-items: center;
     background-color: #1425af;
     transition: all 0.4s ease;
+    font-weight: 700;
     transform: translateX(0px);
     opacity: 1;
     -webkit-transform:
@@ -137,15 +138,16 @@
     .heading h2{
         font-size: 28px;
     }
+    .MoboverlapSection>div>img{
+        width: 100vw;
+    }
     .overlapSection{
         display: none;
     }
     .overlapsImages{
         display: none;
     }
-    .MoboverlapSection>div img{
-        height: 550px;
-    }
+
     
     .mobTextBox h3{
     font-size: 20px;
@@ -160,7 +162,7 @@
     }
     .mobTextBox {
         background: #1425af;
-        width: 265px;
+        width: 248px;
         border: 1px dashed rgba(255, 255, 255, 0.6);
     }
     .MoboverlapSection{
@@ -169,24 +171,22 @@
     }
     .MoboverlapSection>div>div{
         padding: 5px;
-        width: 288px;
+        width: 275px;
         position: absolute;
         margin-top: -1rem;
-        margin-left: 5rem;
+        margin-left: 6rem;
         z-index: 1;
         background: #1425af;
         
     }
     .MobTransformdiv{
-            height: 72px;
-            width: 30px;
-            -ms-transform: skew(-15deg);
-            -webkit-transform: skew(-15deg);
-            transform: skew(-15deg);
-            background: #1425af;
-           margin-left: 17rem;
-            margin-top: -4.13rem;
-            position: absolute;
+        height: 68px;
+        width: 30px;
+        transform: skew(-15deg);
+        background: #1425af;
+        margin-left: 16rem;
+        margin-top: -3.9rem;
+        position: absolute;
            
     }
     .MoboverlapSection>div{

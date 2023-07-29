@@ -16,6 +16,7 @@
     font-family: "Open Sans", Arial, sans-serif;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
 }
 .heading h2>span{
     color: #e1193e;
@@ -70,6 +71,9 @@
     box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
 }
 .table{
+    width: 100vw;
+    max-width: 1200px;
+    background: #fff;
     background: #fff;
     -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
     -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
@@ -84,14 +88,14 @@
 }
 @media only screen and (max-width: 414px) {
     .tableSection{
-        margin-left: 20px;
+        margin-left: 10px;
+        overflow-x: scroll;
         width: 90%;
+        place-content: baseline;
     }
     .heading h2{
         font-size: 28px;
-    }
-    .schedulesSection {
-        margin-top: -10rem;
+
     }
     .table thead th{
         font-size:18px
@@ -99,4 +103,8 @@
     .table tbody th{
         font-size:18px;
     }
+    .schedulesSection {
+        margin-top: -10rem;
+    }
+
 }

@@ -70,7 +70,7 @@ const Schedules = () => {
                             <td>Weight Lifting</td>
                             <td>Cardio</td>
                             <td>&nbsp;</td>
-                            
+
                             <td>Aerobics</td>
                             <td>Cycling</td>
                             <td>Stretching</td>

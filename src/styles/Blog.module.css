@@ -11,6 +11,7 @@
     font-weight: 800;
     font-family: "Open Sans", Arial, sans-serif;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .header{
     text-align: center;
@@ -66,9 +67,11 @@
 }
 .blog{
     display: flex;
+    justify-content: center;
 }
 .blog2{
     display: flex;
+    justify-content: center;
 }
 .textBox{
     text-align: left;
@@ -76,9 +79,8 @@
     width: 350px;
 }
 .blogSection{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
     padding-top: 10rem;
     padding-bottom: 10rem;
 }

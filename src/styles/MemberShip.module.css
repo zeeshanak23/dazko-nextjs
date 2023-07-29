@@ -23,6 +23,7 @@
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
     color: #fff;
 }
 .overlaps h2{
@@ -31,7 +32,7 @@
     font-weight: 800;
     font-family: "Open Sans", Arial, sans-serif;
     text-transform: uppercase;
-    margin: 6px;
+    margin-left: 6px;
 }
 .overlaps{
     text-align: center;
@@ -139,5 +140,8 @@
         font-size: 26px;
         width: 300px;
         margin-left: 60px !important;
+    }
+    .overlaps h2{
+        margin-left: 0;
     }
 }

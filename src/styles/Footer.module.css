@@ -23,6 +23,7 @@
     font-size: 18px;
     width: 400px;
     margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 .logo>div{
     height: 40px;
@@ -69,6 +70,7 @@
     font-family: "Open Sans", Arial, sans-serif;
 }
 .secondSection>div{
+    padding-top: 23px;
     display: flex;
     width: 200px;
     text-align: center;
@@ -81,7 +83,7 @@
 }
 .thirdSection h1{
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
     font-size: 20px;
     font-weight: 700;
     font-family: "Open Sans", Arial, sans-serif;
@@ -95,6 +97,7 @@
 }
 .thirdSection>div{
     display: flex;
+    padding-top: 12px;
 }
 .phoneIcon{
     margin-top: 4px;
@@ -116,17 +119,21 @@
         margin-bottom: 0;
         font-size: 40px;
     }
+    .firstSentence{
+        margin-top: 3rem;
+    }
     .firstSection p{
         font-size: 20px;
         width: 400px;
-        margin-top: 2rem;
         margin-bottom: 1rem;
     }
     .secondSection h1{
-        margin-top: 40px;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
     .thirdSection h1{
-        margin-top: 40px;
+        margin-bottom: 10px;
+        margin-top: 30px;
     }
     .forthSection>div{
         flex-direction: column;

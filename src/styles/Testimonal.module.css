@@ -12,6 +12,7 @@
     font-weight: 800;
     font-family: "Open Sans", Arial, sans-serif;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 .testimonalSection{
     background: #f0f4f7 !important;
@@ -109,6 +110,11 @@
 }
 .mobCarouselbox{
     display: none;
+}
+.carouselbox{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
 }
 @media only screen and (max-width: 414px) {
     .mobCarouselbox{
